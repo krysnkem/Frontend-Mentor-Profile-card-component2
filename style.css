@@ -1,0 +1,130 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background: hsl(185, 75%, 39%);
+    --light: white;
+    --grayish-blue: hsl(227, 10%, 46%);
+    --dark: hsl(229, 23%, 23%)
+    --gray: rgba(106, 111, 129, .46);
+}
+body, html{
+    height: 100%;
+    font-family: 'Kumbh Sans', san-serif;
+    color: var(--dark);
+    overflow: hidden;
+}
+
+.Profile{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.attribution{
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+.profile-card{
+    width: 354px;
+    height: 373px;
+    background-color: var(--light);
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 0px 0px 20px var(--grayish-blue);
+    
+    
+
+}
+.card_top{
+    width: 100%;
+    height: 146px;
+    background: url(./Images/bg-pattern-card.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+
+
+}
+.card_middle{
+    width: 100%;
+    height: 139px;
+    background-color: transparent;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    border-bottom: 1px solid rgba(106, 111, 129, .26);
+}
+.s26{
+    color: var(--grayish-blue);
+}
+.s262{
+    color: var(--grayish-blue);
+    font-weight: 400;
+    margin: 11px 0 16px 0;
+}
+.card_buttom{
+    width: 100%;
+    height: 1fr;
+
+}
+.undertexts{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.undertext_top{
+    font-weight: 700;
+}
+.undertext_buttom{
+    font-size: 11px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.circle_out{
+    height: 107px;
+    width: 107px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 123.5px;
+    top: 95px;
+}
+.circle_pic{
+    
+    width: 94px;
+    height: 94px;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 7px;
+      
+}
+.circle_pic img{
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 100%;
+    margin: auto;
+}
+.bg_top{
+    position: absolute;
+    bottom: 50%;
+    right: 47%;
+
+}
+.bg_bottom{
+    position: absolute;
+    left: 49.93%;
+    top: 50.64%;
+    
+}
